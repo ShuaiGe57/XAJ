@@ -1,0 +1,12 @@
+name = "XAJ"
+version = "0.1.0"
+license = "license"
+author = "ShuaiGe57"
+maintainer = "46555076+ShuaiGe57@users.noreply.github.com"
+copyright = "Copyright 2023, ShuaiGe57"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = false

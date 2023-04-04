@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Fortran: gfortran.exe 生成活动文件",
+			"command": "gfortran.exe",
+			"args": [
+				"-g",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"${file}"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: gfortran.exe"
+		}
+	]
+}
