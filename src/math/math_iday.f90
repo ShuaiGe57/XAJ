@@ -14,7 +14,7 @@ function iday(n, year, mon, day)
                       & mondays_ping(12) = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     integer, intent(in):: n
     integer, intent(in):: year(n), mon(n), day(n)
-    real:: iday(n)
+    integer:: iday(n)
 
     do i = 1, n
       if ( mod(year(i), 400) == 0 .or. ((mod(year(i), 100) /= 0 .and. mod(year(i), 4) == 0)) ) then
