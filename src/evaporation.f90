@@ -1,7 +1,7 @@
 module evaporation
   use parameter
   implicit none
-  
+  private
 
   public :: e_fun
 contains

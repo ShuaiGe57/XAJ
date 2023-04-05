@@ -1,6 +1,10 @@
 program main
-  use XAJ, only: say_hello
-  implicit none
+  use math_iday, only: iday
+  integer:: year(12), mon(12), day(12), dn(12), i
+  year = 2100
+  mon = 12
+  day = [(i, i =20, 31)]
 
-  call say_hello()
+  dn = iday(12, year, mon, day)
+  print *, dn
 end program main
