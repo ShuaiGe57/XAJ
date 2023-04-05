@@ -7,8 +7,11 @@
 			"args": [
 				"-g",
 				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe",
-				"${file}"
+				"${workspaceFolder}\\${fileBasenameNoExtension}.exe",
+				"${workspaceFolder}\\app\\main.f90",
+				"${workspaceFolder}\\src\\pet.f90",
+				"${workspaceFolder}\\src\\math\\math_iday.f90"
+
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"

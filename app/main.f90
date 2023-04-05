@@ -2,7 +2,7 @@ program main
   use pet, only: ep_har
   implicit none
   integer, parameter:: n = 12
-  real, parameter:: lat = 120.
+  real, parameter:: lat = 30.
   integer:: year(n), mon(n), day(n), dn(n), i
   real:: tmin(n), tmax(n)
   real:: ep(n)
