@@ -1,5 +1,5 @@
 program main
-  use pet, only: ep_har
+  use math_doy, only: doy
   implicit none
   integer, parameter:: n = 12
   real, parameter:: lat = 30.
@@ -12,6 +12,6 @@ program main
   tmin = [(15+i*0.2, i = 1, n)]
   tmax = tmin * 1.1
 
-  ep = ep_har(n, lat, year, mon, day, tmax, tmin)
-  print *, ep
+  dn = doy(year, mon, day)
+  print *, dn
 end program main

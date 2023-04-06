@@ -1,5 +1,5 @@
 module pet
-  use math_iday, only: iday
+  use math_day_of_year, only: doy
     implicit none
     
 contains

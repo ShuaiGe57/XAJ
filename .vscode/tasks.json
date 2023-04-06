@@ -9,8 +9,7 @@
 				"-o",
 				"${workspaceFolder}\\${fileBasenameNoExtension}.exe",
 				"${workspaceFolder}\\app\\main.f90",
-				"${workspaceFolder}\\src\\pet.f90",
-				"${workspaceFolder}\\src\\math\\math_iday.f90"
+				"${workspaceFolder}\\src\\math\\doy.f90"
 
 			],
 			"options": {
